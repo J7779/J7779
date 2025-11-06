@@ -64,5 +64,8 @@ My to-do list is less of a "list" and more of a "suggestion scroll."
 ---
 
 <p align="center">
+  <b>Projects</b><br>
+  [Check out my watch face if you wish :)](https://apps.garmin.com/apps/09ac3144-0d6c-4622-9eb6-f0ed18abeeab)
   <b>Thanks for stopping by!</b><br>
+  
 </p>
