@@ -1,7 +1,4 @@
-<!-- Banner (optional, replace the image link with your own or remove entirely) -->
-<p align="center">
-  <img src="https://github.com/yourusername/yourusername/blob/main/banner.png" alt="Welcome Banner" width="100%" />
-</p>
+
 
 <h1 align="center">👋 Hi, I'm Joe!</h1>
 
