@@ -16,7 +16,7 @@ I've discovered a method to break and fix <i>every</i> layer of an application h
 
 > 💡 <b>My Philosophy:</b>  
 > “If it works, don’t touch it.  
-> If it doesn’t work... it’s probably a caching issue (seriously dislike Redux lol).”
+> If it doesn’t work... it’s probably a caching issue (love hate releationship with Redux lol).”
 
 ---
 
