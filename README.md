@@ -65,6 +65,7 @@ My to-do list is less of a "list" and more of a "suggestion scroll."
 
 <p align="center">
   <a href="https://apps.garmin.com/apps/09ac3144-0d6c-4622-9eb6-f0ed18abeeab">Check out my watch face, if you’d like! 😊</a>
+  <a href="https://apps.apple.com/us/app/gentle-steward/id6754062493">Check out my iOS App, if you’d like! 😊</a>
   <br>
   <b>Thanks for stopping by!</b>
 </p>
