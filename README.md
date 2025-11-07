@@ -9,8 +9,6 @@
 
 ## 🎯 Current Quest Log
 
-My to-do list is less of a "list" and more of a "suggestion scroll."
-
 - [x] Drink an alarming amount of Dr Pepper  
 - [ ] Figure out why my PyTorch models think a cat is a hotdog  
 - [ ] Find a second real-world use for Monkey C  
