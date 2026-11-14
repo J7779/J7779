@@ -32,8 +32,6 @@
 
 <p align="center">
   <a href="https://apps.garmin.com/apps/09ac3144-0d6c-4622-9eb6-f0ed18abeeab"><img src="https://img.shields.io/badge/Garmin-My%20Watch%20Face-007CC3?style=for-the-badge&logo=garmin&logoColor=white" alt="Check out my watch face on Garmin Connect IQ"></a>
-  &nbsp;
-  <a href="https://apps.apple.com/us/app/gentle-steward/id6754062493"><img src="https://img.shields.io/badge/App%20Store-Gentle%20Steward-0D96F6?style=for-the-badge&logo=appstore&logoColor=white" alt="Check out my iOS app, Gentle Steward, on the App Store"></a>
 </p>
 
 ---
