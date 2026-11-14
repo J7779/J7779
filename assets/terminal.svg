@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 236" width="600" height="236" role="img" aria-labelledby="t d">
+  <title id="t">Joe's terminal</title>
+  <desc id="d">A terminal running ./start-day.sh. OK: Started Digital Workshop. WARN: Workshop is now a Circus. FAILED: Circus is on fire. OK: Reached target Dumpster Fire.</desc>
+
+  <style>
+    text {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", "DejaVu Sans Mono", monospace;
+      font-size: 16px;
+      fill: #c9d1d9;
+      white-space: pre;
+    }
+    .title  { font-size: 13px; fill: #8b949e; }
+    .prompt { fill: #58a6ff; }
+    .dim    { fill: #8b949e; }
+    .ok     { fill: #3fb950; font-weight: 700; }
+    .warn   { fill: #d29922; font-weight: 700; }
+    .fail   { fill: #f85149; font-weight: 700; }
+    .cursor { fill: #c9d1d9; }
+
+    /* Resting state is the finished screen; animations only delay the reveal,
+       so reduced-motion viewers (animation: none) get the full picture. */
+    .cover   { transform: translateX(134.4px); animation: type 2.2s both; }
+    .typing  { transform: translateX(134.4px); animation: type 2.2s both; }
+    .typing-vis { opacity: 0; animation: vanish 2.6s steps(1, end) both; }
+    .l1 { animation: reveal 2.9s steps(1, end) both; }
+    .l2 { animation: reveal 3.5s steps(1, end) both; }
+    .l3 { animation: reveal 4.1s steps(1, end) both; }
+    .l4 { animation: reveal 4.9s steps(1, end) both; }
+    .l5 { animation: reveal 5.5s steps(1, end) both; }
+    .blink { animation: blink 1.1s steps(1, end) infinite; }
+
+    @keyframes type {
+      0%, 36% { transform: translateX(0); animation-timing-function: steps(14, end); }
+      100%    { transform: translateX(134.4px); }
+    }
+    @keyframes reveal { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes vanish { from { opacity: 1; } to { opacity: 0; } }
+    @keyframes blink  { 0% { opacity: 1; } 50% { opacity: 0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .cover, .typing, .typing-vis, .l1, .l2, .l3, .l4, .l5, .blink { animation: none; }
+    }
+  </style>
+
+  <!-- window -->
+  <rect x="0.5" y="0.5" width="599" height="235" rx="10" fill="#161b22" stroke="#30363d"/>
+  <path d="M0.5 36.5 V10.5 a10 10 0 0 1 10 -10 h579 a10 10 0 0 1 10 10 V36.5 Z" fill="#21262d" stroke="#30363d"/>
+  <circle cx="22" cy="18.5" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="18.5" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="18.5" r="6" fill="#27c93f"/>
+  <text class="title" x="300" y="23" text-anchor="middle">joe@github: ~</text>
+
+  <!-- line 0: the command gets typed -->
+  <text class="prompt" x="24" y="72" textLength="124.8" lengthAdjust="spacing">joe@github:~$</text>
+  <text x="158.4" y="72" textLength="134.4" lengthAdjust="spacing">./start-day.sh</text>
+  <rect class="cover" x="158.4" y="54" width="150" height="26" fill="#161b22"/>
+  <g class="typing-vis"><rect class="cursor typing" x="158.4" y="57" width="9.6" height="19"/></g>
+
+  <!-- boot log -->
+  <g class="l1">
+    <text class="dim" x="24" y="100">[</text><text class="ok" x="67" y="100" text-anchor="middle" textLength="19.2" lengthAdjust="spacing">OK</text><text class="dim" x="110" y="100" text-anchor="end">]</text>
+    <text x="124" y="100">Started Digital Workshop.</text>
+  </g>
+  <g class="l2">
+    <text class="dim" x="24" y="126">[</text><text class="warn" x="67" y="126" text-anchor="middle" textLength="38.4" lengthAdjust="spacing">WARN</text><text class="dim" x="110" y="126" text-anchor="end">]</text>
+    <text x="124" y="126">Workshop is now a Circus.</text>
+  </g>
+  <g class="l3">
+    <text class="dim" x="24" y="152">[</text><text class="fail" x="67" y="152" text-anchor="middle" textLength="57.6" lengthAdjust="spacing">FAILED</text><text class="dim" x="110" y="152" text-anchor="end">]</text>
+    <text x="124" y="152">Circus is on fire.</text>
+  </g>
+  <g class="l4">
+    <text class="dim" x="24" y="178">[</text><text class="ok" x="67" y="178" text-anchor="middle" textLength="19.2" lengthAdjust="spacing">OK</text><text class="dim" x="110" y="178" text-anchor="end">]</text>
+    <text x="124" y="178">Reached target Dumpster Fire.</text>
+  </g>
+
+  <!-- back at the prompt -->
+  <g class="l5">
+    <text class="prompt" x="24" y="208" textLength="124.8" lengthAdjust="spacing">joe@github:~$</text>
+    <rect class="cursor blink" x="158.4" y="193" width="9.6" height="19"/>
+  </g>
+</svg>
